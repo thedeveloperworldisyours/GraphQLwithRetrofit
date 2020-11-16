@@ -3,6 +3,12 @@ GraphQL with Retrofit on Android
 
 The app calls to [graphql-weather-api](https://github.com/konstantinmuenster/graphql-weather-api)
 
+<p align="center">
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=Jkd0SIs5Tsk
+" target="_blank"><img src="http://img.youtube.com/vi/QG0hTBB_YyY/0.jpg" 
+alt="GraphQL on Android" width="480" height="360" border="10" />
+  </a>
+
 You can find more information in this **[blog](https://thedeveloperworldisyours.com/android/how-to-use-graphql-with-retrofit-on-android/)**.
 
 <a href="http://thedeveloperworldisyours.com/">
