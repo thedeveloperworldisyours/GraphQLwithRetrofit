@@ -8,6 +8,16 @@ The app calls to [graphql-weather-api](https://github.com/konstantinmuenster/gra
 " target="_blank"><img src="http://img.youtube.com/vi/Jkd0SIs5Tsk/0.jpg" 
 alt="GraphQL on Android" width="480" height="360" border="10" />
   </a>
+  
+# Note: 
+  
+  if you need a mutation should be to change this line
+```kotlin
+paramObject.put("query", "query {users(userid:$userId){username}}")
+to
+
+paramObject.put("query", "mutation {users(userid:$userId){username}}")
+```
 
 You can find more information in this **[blog](https://thedeveloperworldisyours.com/android/how-to-use-graphql-with-retrofit-on-android/)**.
 
