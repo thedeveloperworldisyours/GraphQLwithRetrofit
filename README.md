@@ -14,8 +14,9 @@ alt="GraphQL on Android" width="480" height="360" border="10" />
   if you need a mutation should be to change this line
 ```kotlin
 paramObject.put("query", "query {users(userid:$userId){username}}")
+```
 to
-
+```kotlin
 paramObject.put("query", "mutation {users(userid:$userId){username}}")
 ```
 
